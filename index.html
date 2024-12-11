@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/custom-calendar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="custom-calendar-wrapper">
+        <button class="calender-input-button" type="button" data-default-text="Enter New Date"></button>
+        <!-- Custom Calendar -->
+            <div class="calendar-modal single-date-selector" data-selected="false">
+            <div class="calendar-container">
+                <div class="container-new">
+                    <div class="custom-calendar">
+                        <header class="calendar-header">
+                            <button class="left" type="button">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </button>
+                            <div class="header-display">
+                                <p class="current-month-year">December  2024</p>
+                            </div>
+                            <button class="right" type="button">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </header>
+                        <div class="calendar-week-wrapper">
+                            <div>Su</div>
+                            <div>Mo</div>
+                            <div>Tu</div>
+                            <div>We</div>
+                            <div>Th</div>
+                            <div>Fr</div>
+                            <div>Sa</div>
+                        </div>
+                        <div class="calendar-days-wrapper"><div data-date="Sun Dec 01 2024" class="disabled-date">1</div><div data-date="Mon Dec 02 2024" class="available-date">2</div><div data-date="Tue Dec 03 2024" class="available-date">3</div><div data-date="Wed Dec 04 2024" class="available-date">4</div><div data-date="Thu Dec 05 2024" class="available-date">5</div><div data-date="Fri Dec 06 2024" class="available-date">6</div><div data-date="Sat Dec 07 2024" class="available-date">7</div><div data-date="Sun Dec 08 2024" class="available-date">8</div><div data-date="Mon Dec 09 2024" class="available-date">9</div><div data-date="Tue Dec 10 2024" class="available-date">10</div><div data-date="Wed Dec 11 2024" class="available-date">11</div><div data-date="Thu Dec 12 2024" class="available-date">12</div><div data-date="Fri Dec 13 2024" class="available-date">13</div><div data-date="Sat Dec 14 2024" class="available-date">14</div><div data-date="Sun Dec 15 2024" class="available-date">15</div><div data-date="Mon Dec 16 2024" class="available-date">16</div><div data-date="Tue Dec 17 2024" class="available-date">17</div><div data-date="Wed Dec 18 2024" class="available-date">18</div><div data-date="Thu Dec 19 2024" class="available-date">19</div><div data-date="Fri Dec 20 2024" class="available-date">20</div><div data-date="Sat Dec 21 2024" class="available-date">21</div><div data-date="Sun Dec 22 2024" class="available-date">22</div><div data-date="Mon Dec 23 2024" class="available-date">23</div><div data-date="Tue Dec 24 2024" class="available-date">24</div><div data-date="Wed Dec 25 2024" class="available-date">25</div><div data-date="Thu Dec 26 2024" class="available-date">26</div><div data-date="Fri Dec 27 2024" class="available-date">27</div><div data-date="Sat Dec 28 2024" class="available-date">28</div><div data-date="Sun Dec 29 2024" class="available-date">29</div><div data-date="Mon Dec 30 2024" class="available-date">30</div><div data-date="Tue Dec 31 2024" class="available-date">31</div></div>
+                    </div>
+                    <div class="display-selected">
+                    </div>
+    
+                    <div class="calendar-error-wrapper">
+                    <p class="error-message transition text-red-500"></p>
+                    </div>
+    
+                    <div class="calendar-footer-btn-wrapper">
+                        <button type="button" class="save-calendar-btn transition text-white base-save-btn w-full border-box">Save</button>
+                        <button type="button" class="cancel-calendar-btn transition base-cancel-btn w-full border-box">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!-- Custom Calendar  -->
+    </div>
+    <script src="./js/custom-calendar.js"></script>
+</body>
+</html>
